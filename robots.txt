@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theohuger.github.io/HUGER.Portfolio.io/sitemap.xml
