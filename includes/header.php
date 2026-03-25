@@ -16,7 +16,7 @@
           <li><a href="#portfolio">Mes Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
           <?php
-            if($status == 'etudiant' || $status == 'pro';){
+            if($status == 'etudiant' || $status == 'pro'){
               ?>
               <li><a href="#">Mes Projets</a></li>
               <?php
