@@ -7,7 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Iniation MVC</title>
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">    </head>
         <meta charset="utf-8">
@@ -51,11 +51,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             case 'authentification':
                 include 'controleurs/ControleurAuthentification.php';
                 break;
+            case 'creationcompte':
+                include 'controleurs/ControleurCreation.php';
             default:
                 include 'includes/page.php';
                 break;
         }
         ?>
+        
         
 
         

@@ -1,8 +1,6 @@
 <body class="index-page">
 
 
-  <?php include 'includes/header.php';?>
-
   <main class="main">
 
     <!-- Hero Section -->
@@ -13,7 +11,10 @@
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <h2>Théo Huger</h2>
         <p><span class="typed" data-typed-items="Étudiant, Developeur, Programmeur, Cybersécurité"></span></p>
-        <p class="fst-italic"><?php if(date('H')>18){echo 'Bonsoir';}else{echo 'Bonjour';}?></p>
+        <?php if (isset($_SESSION["login"])) { ?>
+          <p class="fst-italic"><?php if(date('H')>18){echo 'Bonsoir ' . $_SESSION["login"];}else{echo 'Bonjour ' . $_SESSION["login"];}?></p>
+        <?php } ?>
+
       </div>
 
     </section><!-- /Hero Section -->
