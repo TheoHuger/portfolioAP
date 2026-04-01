@@ -19,4 +19,25 @@ class PdoUtilisateur{
             //retourne un tableau contenant toutes les lignes du jeu denregistrement ou rien
             return $utilisateur;
         }
+
+        public static function loginExiste($login){
+            $objPdo = PdoConnexion::getPdoConnexion();
+            $req = "SELECT COUNT(*) AS 'nb' FROM utilisateur where login = '$login'";
+            $res = $objPdo->query($req);
+            $nbUtilisateur = $res->fetchAll();
+            $res->closeCursor();
+            
+            if($nbUtilisateur[0]['nb']>0){
+                return true;
+            }else{
+                return false;
+            }
+
+        }
+        public static function creerUtilisateur($login, $mdp){
+            $objPdo = PdoConnexion::getPdoConnexion();
+            $req = "INSERT INTO utilisateur (login, mdp) VALUES ('$login', '$mdp')";
+            $objPdo->exec($req);
+        }
+
 }

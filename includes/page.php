@@ -103,322 +103,324 @@
     </section><!-- /About Section -->
 
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <?php if (isset($_SESSION["login"])) { ?>
+      <section id="resume" class="resume section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Mon Parcours</h2>
-      </div><!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Mon Parcours</h2>
+        </div><!-- End Section Title -->
 
-      <div class="container">
+        <div class="container">
 
-        <div class="row">
+          <div class="row">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sommaire</h3>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Sommaire</h3>
 
-            <div class="resume-item pb-0">
-              <h4>Théo Huger</h4>
-              <p><em>Actuellement en premiere année du BTS SIO option SLAM.</em></p>
-              <ul>
-                <li>Tours 37000</li>
-                <li>06-31-76-27-18</li>
-                <li>theo.huger04@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+              <div class="resume-item pb-0">
+                <h4>Théo Huger</h4>
+                <p><em>Actuellement en premiere année du BTS SIO option SLAM.</em></p>
+                <ul>
+                  <li>Tours 37000</li>
+                  <li>06-31-76-27-18</li>
+                  <li>theo.huger04@gmail.com</li>
+                </ul>
+              </div><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Parcours scolaire</h3>
-            <div class="resume-item">
-              <h4>Le Lycée</h4>
-              <h5>2020 - 2023</h5>
-              <p><em>Lycée Robert Garnier à la Ferté Bernard</em></p>
-              <p>J’ai effectué mes trois années de lycée au sein de l’établissement Robert Garnier, où j’ai progressivement construit mon projet d’orientation vers l’informatique. En classe de Terminale, j’ai choisi de me spécialiser en Histoire-Géographie, Géopolitique et Sciences Politiques (HGGSP), ainsi qu’en Numérique et Sciences Informatiques (NSI), une matière qui a particulièrement renforcé mon intérêt pour le développement, les algorithmes et la logique de programmation.
-                  Souhaitant également consolider mes bases en mathématiques, j’ai suivi l’option Mathématiques complémentaires</p>
+              <h3 class="resume-title">Parcours scolaire</h3>
+              <div class="resume-item">
+                <h4>Le Lycée</h4>
+                <h5>2020 - 2023</h5>
+                <p><em>Lycée Robert Garnier à la Ferté Bernard</em></p>
+                <p>J’ai effectué mes trois années de lycée au sein de l’établissement Robert Garnier, où j’ai progressivement construit mon projet d’orientation vers l’informatique. En classe de Terminale, j’ai choisi de me spécialiser en Histoire-Géographie, Géopolitique et Sciences Politiques (HGGSP), ainsi qu’en Numérique et Sciences Informatiques (NSI), une matière qui a particulièrement renforcé mon intérêt pour le développement, les algorithmes et la logique de programmation.
+                    Souhaitant également consolider mes bases en mathématiques, j’ai suivi l’option Mathématiques complémentaires</p>
 
-            </div><!-- Edn Resume Item -->
+              </div><!-- Edn Resume Item -->
 
-            <div class="resume-item">
-              <h4>Licence Informatique</h4>
-              <h5>2024 - 2025</h5>
-              <p><em>Université Le Mans</em></p>
-              <p>J'ai éffectué une année de licence informatique, puis je me suis dirigé vers un BTS SIO pour avoir un parcours avec plus de pratique mais aussi un meilleur encadrement par rapport a la licence.</p>
-            </div><!-- Edn Resume Item -->
-          </div>
+              <div class="resume-item">
+                <h4>Licence Informatique</h4>
+                <h5>2024 - 2025</h5>
+                <p><em>Université Le Mans</em></p>
+                <p>J'ai éffectué une année de licence informatique, puis je me suis dirigé vers un BTS SIO pour avoir un parcours avec plus de pratique mais aussi un meilleur encadrement par rapport a la licence.</p>
+              </div><!-- Edn Resume Item -->
+            </div>
+
+            </div>
 
           </div>
 
         </div>
 
-      </div>
+      </section><!-- /Resume Section -->
 
-    </section><!-- /Resume Section -->
+      <!-- Services Section -->
+      <section id="services" class="services section">
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Compétences</h2>
-      </div><!-- End Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h3>Programmation</h3>
-      </div>
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative competence-card ">
-              <img src="assets/img/C.png" alt="Icone perso" />
-              <a href="#" class="stretched-link">
-                <h3>Langage C</h3>
-              </a>
-              <p class="description-hover">Langage de programmation utilisé pour apprendre les bases comme les boucles, les conditions et la gestion de la mémoire. Il est très utile pour comprendre comment fonctionne un ordinateur en profondeur.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative competence-card ">
-              <img src="assets/img/html.png" alt="Icone perso" />
-              <a href="#" class="stretched-link">
-                <h3>HTML et CSS</h3>
-              </a>
-              <p class="description-hover"> Langage utilisé pour créer la structure des pages web. Il permet d’organiser le contenu comme les titres, paragraphes, images ou liens.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative competence-card ">
-              <img src="assets/img/python.png" alt="Icone perso" />
-              <a href="#" class="stretched-link">
-                <h3>Python</h3>
-              </a>
-              <p class="description-hover"> Langage facile à lire et à apprendre. Il sert à faire plein de choses comme des scripts, de l'automatisation, des sites web ou même de l’intelligence artificielle.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative competence-card ">
-              <img src="assets/img/math.png" alt="Icone perso" />
-              <a href="#" class="stretched-link">
-                <h3>Maths</h3>
-              </a>
-              <p class="description-hover"> Outil fondamental en informatique pour la logique, les calculs, les algorithmes et la résolution de problèmes.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative competence-card ">
-              <img src="assets/img/rasberry.png" alt="Icone perso" />
-              <a href="#" class="stretched-link">
-                <h3>Objets connectés</h3>
-              </a>
-              <p class="description-hover"> Appareils reliés à Internet qui peuvent échanger des données, comme les montres intelligentes, les capteurs ou les assistants vocaux. On les programme souvent avec des cartes comme les Raspberry Pi ou Arduino.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative competence-card ">
-              <img src="assets/img/c sharp.png" alt="Logo c#" />
-              <a href="#" class="stretched-link">
-                <h3>C#</h3>
-              </a>
-              <p class="description-hover">C# est un langage de programmation orientée objet, commercialisé par Microsoft depuis 2002 et destiné à développer sur la plateforme Microsoft.NET</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          
-          <div class="container section-title" data-aos="fade-up">
-            <br>
-            <br>
-            <h3>Maquettage et Infrastructure / Réseau</h3>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
-            <div class="service-item position-relative competence-card ">
-              <img id="cisco" src="assets/img/cisco packet.png" alt="Logo cisco packet tracer" />
-              <a href="#" class="stretched-link">
-                <h3>Cisco Packet Tracer</h3>
-              </a>
-              <p class="description-hover"> Cisco Packet Tracer est un logiciel de simulation de réseau développé par Cisco qui permet aux utilisateurs de créer des réseaux virtuels et de simuler le comportement de divers protocoles de routage.  </p>
-            </div>
-          </div>
-
-          <div class="container section-title" data-aos="fade-up">
-            <br>
-            <br>
-            <h3>SGBD</h3>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
-            <div class="service-item position-relative competence-card ">
-              <img id="cisco" src="assets/img/mariadb.png" alt="Logo MariaDB" />
-              <a href="#" class="stretched-link">
-                <h3>MariaDB</h3>
-              </a>
-              <p class="description-hover"> MariaDB est un système de gestion de base de données édité sous licence GPL. Il s'agit d'un dérivé communautaire de MySQL</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
-            <div class="service-item position-relative competence-card ">
-              <img id="cisco" src="assets/img/sql.png" alt="Logo SQL" />
-              <a href="#" class="stretched-link">
-                <h3>SQL</h3>
-              </a>
-              <p class="description-hover"> Le SQL (Structured Query Language) est un langage standard utilisé pour interagir avec les bases de données relationnelles. Il permet de stocker, manipuler et récupérer des données efficacement.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
-            <div class="service-item position-relative competence-card ">
-              <img id="cisco" src="assets/img/sql server.png" alt="Logo sql server" />
-              <a href="#" class="stretched-link">
-                <h3>SQL server</h3>
-              </a>
-              <p class="description-hover">Microsoft SQL Server est un système de gestion de base de données (SGBD) en langage SQL incorporant entre autres un SGBDR (SGBD relationnel ») développé et commercialisé par la société Microsoft.</p>
-            </div>
-          </div>
-
-
-
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Compétences</h2>
+        </div><!-- End Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h3>Programmation</h3>
         </div>
 
-      </div>
+        <div class="container">
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Mes Certifications</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter=".filter-cyber" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter=".filter-cyber" class="filter-active">Cybersécurité</li>
-            <li data-filter=".filter-prog">Programmation</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cyber">
-              <img src="assets/img/Anssi_logo.png" class="img-fluid" alt="logo Anssi">
-              <div class="portfolio-info">
-                <h4>Anssi</h4>
-                <a href="assets/img/anssi theo.jpeg" title="Mon certifica" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://fr.wikipedia.org/wiki/Agence_nationale_de_la_s%C3%A9curit%C3%A9_des_syst%C3%A8mes_d%27information" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prog">
-              <img src="assets/img/java.png" class="img-fluid" alt="Logo Java">
-              <div class="portfolio-info">
-                <h4>Java Script</h4>
-                <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-            
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-   
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Si vous voulez plus d'information à mon sujet merci de me contacter</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-5">
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Adresse</h3>
-                  <p>Tours 37000</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Mon Numéro</h3>
-                  <p>0631762717</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email</h3>
-                  <p>theo.huger0@gmail.com</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-        </div>
-
-        <form action="https://api.web3forms.com/submit" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-          <input type="hidden" name="access_key" value="9f4b5f60-f05e-4516-9ae8-08ccdfd21092">
           <div class="row gy-4">
 
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Votre Nom" required="">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item  position-relative competence-card ">
+                <img src="assets/img/C.png" alt="Icone perso" />
+                <a href="#" class="stretched-link">
+                  <h3>Langage C</h3>
+                </a>
+                <p class="description-hover">Langage de programmation utilisé pour apprendre les bases comme les boucles, les conditions et la gestion de la mémoire. Il est très utile pour comprendre comment fonctionne un ordinateur en profondeur.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative competence-card ">
+                <img src="assets/img/html.png" alt="Icone perso" />
+                <a href="#" class="stretched-link">
+                  <h3>HTML et CSS</h3>
+                </a>
+                <p class="description-hover"> Langage utilisé pour créer la structure des pages web. Il permet d’organiser le contenu comme les titres, paragraphes, images ou liens.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative competence-card ">
+                <img src="assets/img/python.png" alt="Icone perso" />
+                <a href="#" class="stretched-link">
+                  <h3>Python</h3>
+                </a>
+                <p class="description-hover"> Langage facile à lire et à apprendre. Il sert à faire plein de choses comme des scripts, de l'automatisation, des sites web ou même de l’intelligence artificielle.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative competence-card ">
+                <img src="assets/img/math.png" alt="Icone perso" />
+                <a href="#" class="stretched-link">
+                  <h3>Maths</h3>
+                </a>
+                <p class="description-hover"> Outil fondamental en informatique pour la logique, les calculs, les algorithmes et la résolution de problèmes.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item position-relative competence-card ">
+                <img src="assets/img/rasberry.png" alt="Icone perso" />
+                <a href="#" class="stretched-link">
+                  <h3>Objets connectés</h3>
+                </a>
+                <p class="description-hover"> Appareils reliés à Internet qui peuvent échanger des données, comme les montres intelligentes, les capteurs ou les assistants vocaux. On les programme souvent avec des cartes comme les Raspberry Pi ou Arduino.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item position-relative competence-card ">
+                <img src="assets/img/c sharp.png" alt="Logo c#" />
+                <a href="#" class="stretched-link">
+                  <h3>C#</h3>
+                </a>
+                <p class="description-hover">C# est un langage de programmation orientée objet, commercialisé par Microsoft depuis 2002 et destiné à développer sur la plateforme Microsoft.NET</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+
+            
+            <div class="container section-title" data-aos="fade-up">
+              <br>
+              <br>
+              <h3>Maquettage et Infrastructure / Réseau</h3>
             </div>
 
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Votre Email" required="">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
+              <div class="service-item position-relative competence-card ">
+                <img id="cisco" src="assets/img/cisco packet.png" alt="Logo cisco packet tracer" />
+                <a href="#" class="stretched-link">
+                  <h3>Cisco Packet Tracer</h3>
+                </a>
+                <p class="description-hover"> Cisco Packet Tracer est un logiciel de simulation de réseau développé par Cisco qui permet aux utilisateurs de créer des réseaux virtuels et de simuler le comportement de divers protocoles de routage.  </p>
+              </div>
             </div>
 
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Sujet" required="">
+            <div class="container section-title" data-aos="fade-up">
+              <br>
+              <br>
+              <h3>SGBD</h3>
             </div>
 
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
+              <div class="service-item position-relative competence-card ">
+                <img id="cisco" src="assets/img/mariadb.png" alt="Logo MariaDB" />
+                <a href="#" class="stretched-link">
+                  <h3>MariaDB</h3>
+                </a>
+                <p class="description-hover"> MariaDB est un système de gestion de base de données édité sous licence GPL. Il s'agit d'un dérivé communautaire de MySQL</p>
+              </div>
             </div>
 
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Votre message est envoyé, Merci!</div>
-
-              <button type="submit">Envoyer</button>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
+              <div class="service-item position-relative competence-card ">
+                <img id="cisco" src="assets/img/sql.png" alt="Logo SQL" />
+                <a href="#" class="stretched-link">
+                  <h3>SQL</h3>
+                </a>
+                <p class="description-hover"> Le SQL (Structured Query Language) est un langage standard utilisé pour interagir avec les bases de données relationnelles. Il permet de stocker, manipuler et récupérer des données efficacement.</p>
+              </div>
             </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1">
+              <div class="service-item position-relative competence-card ">
+                <img id="cisco" src="assets/img/sql server.png" alt="Logo sql server" />
+                <a href="#" class="stretched-link">
+                  <h3>SQL server</h3>
+                </a>
+                <p class="description-hover">Microsoft SQL Server est un système de gestion de base de données (SGBD) en langage SQL incorporant entre autres un SGBDR (SGBD relationnel ») développé et commercialisé par la société Microsoft.</p>
+              </div>
+            </div>
+
+
 
           </div>
-        </form><!-- End Contact Form -->
 
-      </div>
+        </div>
 
-    </section><!-- /Contact Section -->
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Mes Certifications</h2>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="isotope-layout" data-default-filter=".filter-cyber" data-layout="masonry" data-sort="original-order">
+
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter=".filter-cyber" class="filter-active">Cybersécurité</li>
+              <li data-filter=".filter-prog">Programmation</li>
+            </ul><!-- End Portfolio Filters -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cyber">
+                <img src="assets/img/Anssi_logo.png" class="img-fluid" alt="logo Anssi">
+                <div class="portfolio-info">
+                  <h4>Anssi</h4>
+                  <a href="assets/img/anssi theo.jpeg" title="Mon certifica" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://fr.wikipedia.org/wiki/Agence_nationale_de_la_s%C3%A9curit%C3%A9_des_syst%C3%A8mes_d%27information" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prog">
+                <img src="assets/img/java.png" class="img-fluid" alt="Logo Java">
+                <div class="portfolio-info">
+                  <h4>Java Script</h4>
+                  <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+            </div><!-- End Portfolio Container -->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Portfolio Section -->
+
+    
+
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Si vous voulez plus d'information à mon sujet merci de me contacter</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-5">
+
+              <div class="col-lg-4">
+                <div class="info-item d-flex align-items-center">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Adresse</h3>
+                    <p>Tours 37000</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-lg-4">
+                <div class="info-item d-flex align-items-center">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Mon Numéro</h3>
+                    <p>0631762717</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-lg-4">
+                <div class="info-item d-flex align-items-center">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email</h3>
+                    <p>theo.huger0@gmail.com</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <form action="https://api.web3forms.com/submit" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+            <input type="hidden" name="access_key" value="9f4b5f60-f05e-4516-9ae8-08ccdfd21092">
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Votre Nom" required="">
+              </div>
+
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Votre Email" required="">
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Sujet" required="">
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Votre message est envoyé, Merci!</div>
+
+                <button type="submit">Envoyer</button>
+              </div>
+
+            </div>
+          </form><!-- End Contact Form -->
+
+        </div>
+
+      </section><!-- /Contact Section -->
+    <?php } ?>
 
   </main>
 

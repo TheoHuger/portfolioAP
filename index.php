@@ -53,6 +53,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                 break;
             case 'creationcompte':
                 include 'controleurs/ControleurCreation.php';
+                break;
             default:
                 include 'includes/page.php';
                 break;
