@@ -343,22 +343,24 @@
         </div>
 
         <div class="container">
+          <div class="row">
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Images de Audilab">
-            <div class="card-body">
-              <h5 class="card-title">Stage chez Audilab</h5>
-              <p class="card-text">Bref resumer de ma mission et de lentreprise.</p>
-              <a href="#" class="btn btn-primary">En savoir plus (lien vers rapport de stages)</a>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Images de Audilab">
+              <div class="card-body">
+                <h5 class="card-title">Stage chez Audilab</h5>
+                <p class="card-text">Bref resumer de ma mission et de lentreprise.</p>
+                <a href="#" class="btn btn-primary">En savoir plus (lien vers rapport de stages)</a>
+              </div>
             </div>
-          </div>
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Images du second stage">
-            <div class="card-body">
-              <h5 class="card-title">Stage chez ???</h5>
-              <p class="card-text">Bref resumer de ma mission et de lentreprise.</p>
-              <a href="# " class="btn btn-primary">En savoir plus (lien vers rapport de stages)</a>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Images du second stage">
+              <div class="card-body">
+                <h5 class="card-title">Stage chez ???</h5>
+                <p class="card-text">Bref resumer de ma mission et de lentreprise.</p>
+                <a href="# " class="btn btn-primary">En savoir plus (lien vers rapport de stages)</a>
+              </div>
             </div>
           </div>
 
