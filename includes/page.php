@@ -338,13 +338,30 @@
 
       <section id="stages" class="stages section">
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Mes Stages</h2>
+        </div>
+
+        <div class="container">
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Images de Audilab">
+            <div class="card-body">
+              <h5 class="card-title">Stage chez Audilab</h5>
+              <p class="card-text">Bref resumer de ma mission et de lentreprise.</p>
+              <a href="#" class="btn btn-primary">En savoir plus (lien vers rapport de stages)</a>
+            </div>
           </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Images du second stage">
+            <div class="card-body">
+              <h5 class="card-title">Stage chez ???</h5>
+              <p class="card-text">Bref resumer de ma mission et de lentreprise.</p>
+              <a href="# " class="btn btn-primary">En savoir plus (lien vers rapport de stages)</a>
+            </div>
+          </div>
+
         </div>
 
       </section>
