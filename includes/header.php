@@ -20,6 +20,7 @@
                 <li><a href="#resume">Mon Parcours</a></li>
                 <li><a href="#services">Mes Compétences</a></li>
                 <li><a href="#portfolio">Mes Certifications</a></li>
+                <li><a href="stages">Mes Stages</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#"><span class="bi-person-fill"></span>
