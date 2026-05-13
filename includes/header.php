@@ -20,6 +20,7 @@
             <?php if (isset($_SESSION["login"])) { ?>
               <li><a class="dropdown-item" href="#resume">Mon Parcours</a></li>
               <li><a class="dropdown-item" href="#portfolio">Mes Certifications</a></li>
+              <li><a class="dropdown-item" href="#services">Mes Compétences</a></li>
             <?php } ?>
           </ul>
         </li>
@@ -32,8 +33,8 @@
           <?php } ?>
           
           <?php if (isset($_SESSION["login"])) { ?>
-                <li><a href="#services">Mes Compétences</a></li>
-                <li><a href="#stages">Mes Stages</a></li>
+                <li><a href="#stages">Stages</a></li>
+                <li><a href="#AP">Atelier <br> Professionnel</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#"><span class="bi-person-fill"></span>
