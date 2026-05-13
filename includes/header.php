@@ -34,7 +34,8 @@
           
           <?php if (isset($_SESSION["login"])) { ?>
                 <li><a href="#stages">Stages</a></li>
-                <li><a href="#AP">Atelier <br> Professionnel</a></li>
+                <li><a href="#ap">Atelier <br> Professionnel</a></li>
+                <li><a href="#veille">Veille</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#"><span class="bi-person-fill"></span>

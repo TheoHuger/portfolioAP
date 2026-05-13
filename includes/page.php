@@ -369,6 +369,33 @@
       </section>
 
 
+      </section><!-- /Portfolio Section -->
+
+      <section id="ap" class="ap section">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Atelier Professionnel</h2>
+        </div>
+
+        <div class="container">
+
+        </div>
+      </section>
+
+
+
+      <section id="veille" class="veille section">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Veille Technologique</h2>
+        </div>
+
+        <div class="container">
+
+        </div>
+      </section>
+
+
       <!-- Contact Section -->
       <section id="contact" class="contact section">
 
