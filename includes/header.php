@@ -19,8 +19,8 @@
             <li><a class="dropdown-item" href="#about">Présentation</a></li>
             <?php if (isset($_SESSION["login"])) { ?>
               <li><a class="dropdown-item" href="#resume">Mon Parcours</a></li>
-              <li><a class="dropdown-item" href="#portfolio">Mes Certifications</a></li>
               <li><a class="dropdown-item" href="#services">Mes Compétences</a></li>
+              <li><a class="dropdown-item" href="#portfolio">Mes Certifications</a></li>
             <?php } ?>
           </ul>
         </li>
